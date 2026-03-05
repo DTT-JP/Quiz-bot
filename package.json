@@ -1,0 +1,27 @@
+{
+  "name": "discord-quiz-auth-bot",
+  "version": "1.0.0",
+  "description": "A Discord authentication bot with random quiz and penalty system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "pm2:start": "pm2 start index.js --name \"quiz-auth-bot\"",
+    "pm2:stop": "pm2 stop quiz-auth-bot",
+    "pm2:restart": "pm2 restart quiz-auth-bot",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "quiz",
+    "authentication"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "pm2": "^6.0.14"
+  }
+}
