@@ -27,3 +27,4 @@ pm2 start index.js --name "quiz-bot"
 
 ## ライセンス
 MIT
+このコードはGeminiによって生成されました
